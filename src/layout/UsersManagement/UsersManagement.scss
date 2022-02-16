@@ -1,0 +1,33 @@
+td {
+  a,
+  button {
+    background: none;
+    outline: none;
+    border: none;
+    margin-right: 1rem;
+
+    svg {
+      width: 2em;
+      height: 2em;
+      path {
+        fill: red;
+      }
+    }
+
+    .custom-edit-icon {
+      svg {
+        path {
+          fill: rgb(89, 101, 135);
+        }
+      }
+    }
+
+    .custom-delete-icon {
+      svg {
+        path {
+          fill: rgb(255, 101, 135);
+        }
+      }
+    }
+  }
+}
